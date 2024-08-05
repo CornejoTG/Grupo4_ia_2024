@@ -11,3 +11,8 @@ good” y “box bad”. Usamos el servicio de Google Coolab para usar sus recur
 procesamiento como lo es su GPU para poder entrenar nuestro modelo. Al final logramos que 
 pudiera diferenciar entre las cajas correctamente empaquetada y las que no lo estaban con 
 algunas excepciones.
+
+## Dataset
+
+Se utilizaron 200 imagenes de cajas que estaban cerradas, abiertas, dobladas o rotas. La forma de la caja es rectangular o cuadrada.
+![Dataset](https://github.com/CornejoTG/Grupo4_ia_2024/blob/main/imagenescajas.png?raw=true)
