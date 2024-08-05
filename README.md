@@ -16,3 +16,15 @@ algunas excepciones.
 
 Se utilizaron 200 imagenes de cajas que estaban cerradas, abiertas, dobladas o rotas. La forma de la caja es rectangular o cuadrada.
 ![Dataset](https://github.com/CornejoTG/Grupo4_ia_2024/blob/main/imagenescajas.png?raw=true)
+
+# Etiquetas
+
+La imagenes se etiquetaron en dos clases "box good" y 'box bad'. Las box bad son las cajas que tienen algun hueco o que no estan cerradas.
+![prueba1](https://raw.githubusercontent.com/CornejoTG/Grupo4_ia_2024/main/prueba1.png)
+![prueba2](https://raw.githubusercontent.com/CornejoTG/Grupo4_ia_2024/main/prueba2.png)
+
+# Resultado
+
+Finalmente el modelo se uso con un video de una linea de produccion de empaques. S puede apreciar que las cajas que estan en la banda de ensamblaje se detectan como defectuosas porque no estan cerradas aun, mientras que las que estan al final se toman como buenas.
+
+![prueba2](https://raw.githubusercontent.com/CornejoTG/Grupo4_ia_2024/main/comparacion.png)
